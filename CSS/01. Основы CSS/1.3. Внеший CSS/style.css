@@ -1,3 +1,9 @@
 h1 {
-  background-color: red;
+  background-color: rgb(163, 157, 241);
+  font-size: 60px;
+}
+
+div{
+  font-size: 35px;
+  background-color: antiquewhite;
 }
