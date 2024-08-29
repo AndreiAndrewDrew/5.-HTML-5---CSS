@@ -1,3 +1,7 @@
-div > p {
+/*Selectam toate elementele <p> din <div> care 
+sunt mostenitori de prima linie, <p> din <main> este 
+mostinitor de a 2 linie*/
+
+div > p {/*mostinutori <p> de prima linie din <div>*/ 
   background-color: cyan;
 }
