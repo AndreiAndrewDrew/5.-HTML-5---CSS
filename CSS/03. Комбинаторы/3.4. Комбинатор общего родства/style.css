@@ -1,3 +1,6 @@
-.greet ~ p {
+/* '~' combintor de mostiniere comuna
+Adica gasim elemntele <p> care au parintele comun cu 
+elementu care are clasa 'greet'*/
+.greet ~ p { 
   background-color: lightgrey;
 }
