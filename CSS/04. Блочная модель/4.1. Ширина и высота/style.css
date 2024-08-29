@@ -1,5 +1,5 @@
 div {
-  width: 100px;
+  width: 200px;
   height: 100px;
   background-color: blue;
 }
@@ -8,5 +8,10 @@ div {
  с содержимым элемента p */
 p {
   width: 400px;
-  background-color: yellow;
+  background-color:burlywood;
+}
+
+button{
+  width: 100px;
+  height: 50px;
 }
