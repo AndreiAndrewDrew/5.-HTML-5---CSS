@@ -5,3 +5,9 @@ mostinitor de a 2 linie*/
 div > p {/*mostinutori <p> de prima linie din <div>*/ 
   background-color: cyan;
 }
+
+.heading > #myHeading{
+  color: darkblue;
+  font-size: 25px;
+}
+
