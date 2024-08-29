@@ -3,3 +3,7 @@ p,
 span {
   background-color: lightskyblue;
 }
+
+h1,h2,h3{
+  color: darkgreen;
+}
