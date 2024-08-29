@@ -1,7 +1,9 @@
 .container {
   border: 2px solid blue;
+   font-size: 0; /*sterge spatsiile dintre imagini */
 }
 
 .container img {
-  width: 30%;
+  /* width: 33.33%;versia mea */
+  width: calc(100% /3);
 }
