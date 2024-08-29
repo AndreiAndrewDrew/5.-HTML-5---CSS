@@ -1,9 +1,20 @@
 .container {
-  border: 2px solid blue;
-   font-size: 0; /*sterge spatsiile dintre imagini */
+  border: 1px solid blue;
+  font-size: 0; /*sterge spatsiile dintre imagini */
+
 }
 
 .container img {
   /* width: 33.33%;versia mea */
-  width: calc(100% /3);
+  width: calc(100% / 3);
+}
+
+.container p {
+  background-color: antiquewhite;
+  width: calc((100%/4));
+  display: inline-block;
+  font-size: initial;
+  /* border: 1px solid red; */
+  margin-top: 0;
+  margin-bottom: 0;
 }
