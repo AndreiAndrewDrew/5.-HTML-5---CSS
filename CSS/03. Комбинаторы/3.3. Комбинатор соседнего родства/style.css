@@ -1,3 +1,13 @@
-.greet + p {
+/*'+' gaseste vecinul consecutiv elemntulu cu clasa 'greet', 
+in cazul dat primul element <p> */
+.greet + p { 
   background-color: burlywood;
+}
+
+#p1 + p{
+  background-color: aqua;
+}
+
+#p2 + p{
+  background-color: rgb(139, 134, 232);
 }
