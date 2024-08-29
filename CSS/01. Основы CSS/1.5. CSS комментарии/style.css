@@ -1,6 +1,6 @@
 /* установка цвета фона для заголовка h1 */
 h1 {
-  background-color: yellow;
+  background-color: rgb(108, 178, 239); /* culoarea albastra */
 }
 
 /* следующий стиль будет проигнорирован */
