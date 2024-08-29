@@ -4,3 +4,8 @@ elementu care are clasa 'greet'*/
 .greet ~ p { 
   background-color: lightgrey;
 }
+
+h2 ~ button{
+  background-color: rgb(77, 199, 193);
+  margin: 10px;
+}
