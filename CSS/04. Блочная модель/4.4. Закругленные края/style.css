@@ -7,3 +7,12 @@ img {
   border-radius: 50%; /* 50% от размеров изображения */
   border: none;
 }
+
+.image3 {
+  border-radius: 75px;
+  /* border: 5px solid green; */
+  /*anlogul prin 3 rinduri*/
+  border-color: red;
+  border-width: 10px;
+  border-style: dashed;
+}
