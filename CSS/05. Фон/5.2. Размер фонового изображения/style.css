@@ -1,8 +1,8 @@
 .bg-image {
-  background-image: url("https://picsum.photos/id/46/200");
+  background-image: url("https://picsum.photos/id/46/300");
   width: 400px;
-  height: 350px;
-  border: 1px solid gray;
+  height: 150px;
+  border: 5px solid red;
 }
 
 .bg-cover {
