@@ -37,7 +37,7 @@ img {
 .div-element{
   /* display: inline; /*div devinde mica ca la 
   display: inline; latsimea si inaltsimea 
-  deja se ingnoreaza*/ */
+  deja se ingnoreaza*/
   width: 100px;
   height: 100px;
   border: 10px solid lightblue;
