@@ -5,16 +5,25 @@
 }
 
 .bg-small {
-  background-image: url("https://picsum.photos/id/46/200");
+  background-image: url("https://picsum.photos/id/54/200");
   width: 350px;
   height: 350px;
-  border: 1px solid gray;
+  border: 5px solid red;
 }
 
 .bg-repeat-off {
   background-repeat: no-repeat;
+  width: 300px;
 }
 
 .bg-repeat-no-crop {
   background-repeat: round;
+}
+
+p{
+  border: 5px solid blue;
+  background-image: url("https://picsum.photos/id/46/400");
+  font-size: larger;
+  width: 400px;
+  height: 250px;
 }
