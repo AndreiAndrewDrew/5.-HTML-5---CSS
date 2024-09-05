@@ -21,9 +21,12 @@
 }
 
 p{
-  border: 5px solid blue;
-  background-image: url("https://picsum.photos/id/46/400");
+
+  background-image: url("https://picsum.photos/id/46/450");
   font-size: larger;
+  border: 5px solid blue;
+  font-weight: bold;
+  padding: 20px;
   width: 400px;
   height: 250px;
 }
