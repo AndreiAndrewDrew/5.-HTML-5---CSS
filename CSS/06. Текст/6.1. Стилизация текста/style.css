@@ -1,13 +1,19 @@
-body {
-  margin: 70px;
+html{
+  /* default 16px */
+  font-size: 20px;
 }
 
-p {
-  width: 750px;
+body {
+  margin: 30px;
+  font-size: 25px;
 }
+
+/* p {
+  width: 750px;
+} */
 
 .text-color {
-  color: blue;
+  color: rgb(23, 124, 239);
 }
 
 /*********************************************/
@@ -28,6 +34,9 @@ p {
 
 .text-large {
   font-size: 2rem; /* 2 * 16px = 32px */
+  /* 'rem' se ia de la kornevoi element adica
+  de la 'html'
+  'em' se ia de la elementul parinte, adica 'body' */
   width: 100%;
 }
 
@@ -64,7 +73,7 @@ p {
 
 .text-line-through {
   text-decoration: line-through;
-  text-decoration-style: wavy;
+  /* text-decoration-style: wavy; */
   text-decoration-color: red;
   text-decoration-thickness: 3px;
 
@@ -80,6 +89,7 @@ p {
   width: 100%;
   background-color: gold;
   padding: 10px;
+  border: 5px solid lightseagreen;
 }
 
 .text-left {
@@ -95,6 +105,6 @@ p {
 }
 
 .text-justified {
-  width: 45%;
+  width: 80%;
   text-align: justify;
 }
