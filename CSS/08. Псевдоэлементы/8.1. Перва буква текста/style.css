@@ -8,6 +8,6 @@ p {
 }
 
 p::first-letter {
-  color: green;
+  color: red;
   font-size: 3rem;
 }
