@@ -1,13 +1,13 @@
 body {
-  margin: 70px;
+  margin: 50px;
 }
 
 .box {
   width: 100px;
-  height: 100px;
+  height: 40px;
   margin-right: 20px;
   margin-top: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   display: inline-block;
   color: white;
   font-size: 1.5rem;
@@ -53,4 +53,14 @@ body {
 
 .box10 {
   background-color: #16a1a1;
+}
+
+.box11 {
+  color: #9b9b9b;
+  background-color: #cb15eb;
+}
+
+.box12 {
+  color: #423936;
+  background-color: #00EBA8;
 }
