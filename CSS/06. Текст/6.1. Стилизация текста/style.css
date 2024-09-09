@@ -1,4 +1,4 @@
-html{
+html {
   /* default 16px */
   font-size: 20px;
 }
@@ -107,4 +107,17 @@ body {
 .text-justified {
   width: 80%;
   text-align: justify;
+}
+
+.list_one {
+  font-size: 1.25 rem;
+  font-style: italic;
+  color: green;
+}
+
+.list_two {
+  font-size: 1.25 em;
+  font-weight: bold;
+  color: blueviolet;
+  text-transform: uppercase;
 }
