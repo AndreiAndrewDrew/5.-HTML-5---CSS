@@ -6,6 +6,23 @@ body {
 /* Разрешено ограниченное количество свойств:
 https://developer.mozilla.org/en-US/docs/Web/CSS/::marker#allowable_properties */
 li::marker {
-  color: green;
+  color: blue;
   content: "\21D2   "; /* "=>" знак и отступ справа от него */
+  /*"\21D2   " - este unicode pentru sageata*/
+  font-size: 2rem;
+}
+
+.marker1::marker{
+  content: "\1F603   "; /* "=>" знак и отступ справа от него */
+  /*"\1F603   " - unicode pentru emoji*/
+}
+
+.marker2::marker{
+  content: "\1F604   "; /* "=>" знак и отступ справа от него */
+  /*"\1F603   " - unicode pentru emoji*/
+}
+
+.marker3::marker{
+  content: "\1F605   "; /* "=>" знак и отступ справа от него */
+  /*"\1F603   " - unicode pentru emoji*/
 }
