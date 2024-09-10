@@ -1,5 +1,5 @@
 body {
-  margin: 30px;
+  margin: 50px;
 }
 
 .hover-button {
@@ -9,10 +9,17 @@ body {
   color: white;
   padding: 15px 25px; /* top, bottom | right, left */
   border: none; /* удаление границы */
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer; /* Стиль указателя мыши при наведении курсора на кнопку */
 }
 
 .hover-button:hover {
-  background-color: #2980b9; /* изменение цвета на более темный оттенок синего */
+  background-color: #086aab; /* изменение цвета на более темный оттенок синего */
+  color: aqua;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  /*primul 5px este miscarea pe axa x,
+  al doilea 5px miscare pa axa y
+  al treilea 3px blur, razmitie umbrei*/
 }
+
+
