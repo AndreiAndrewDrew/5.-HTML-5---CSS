@@ -9,22 +9,26 @@ body {
   border-radius: 5px;
 }
 
-/*
+/*fara pseudaclasa 'is'se scrie asa:
+
 .product .title,
 .product .description,
-.product .summary
+.product .summary{
+  color: darkblue;
+  font-size: 1.3rem;
+  padding: 15px 0; 
+  margin: 0;
+}
+'is' le uneste toate impreuna
 */
 .product :is(.title, .description, .summary) {
   color: darkblue;
   font-size: 1.3rem;
   padding: 15px 0; /* top, bottom = 15px | right, left = 0px */
   margin: 0; /* удаление внешних отступов по умолчанию для элементов h1 и p */
+  border-bottom: 1px solid gray;
 }
 
-/*
-.product .title,
-.product .description
-*/
-.product :is(.title, .description) {
-  border-bottom: 1px solid gray;
+.product :last-child{
+  border-bottom: none;
 }
