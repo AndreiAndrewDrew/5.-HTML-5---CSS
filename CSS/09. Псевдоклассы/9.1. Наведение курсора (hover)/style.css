@@ -1,10 +1,13 @@
 body {
   margin: 50px;
+  display: block;
+  
 }
 
-.hover-button {
-  margin-top: 30px;
-  margin-right: 30px;
+button {
+  width: 400px;
+  height: 100px;
+  margin-right: 20px;
   font-size: 1.3rem;
   background-color: #3498db;
   color: white;
@@ -14,7 +17,7 @@ body {
   cursor: pointer; /* Стиль указателя мыши при наведении курсора на кнопку */
 }
 
-.hover-button:hover {
+button:hover {
   background-color: #086aab; /* изменение цвета на более темный оттенок синего */
   color: aqua;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
@@ -23,10 +26,18 @@ body {
   al treilea 3px blur, razmitie umbrei*/
 }
 
-.hover-button:active{
-  margin-top: 33px;
-  margin-left: 3px;
+.button1:active{
+  margin-top: 5px;
+  margin-left: 5px;
   color: lightgreen;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  
+}
+
+.button2:active{
+  margin-top: 3px;
+  margin-left: 3px;
+  color: lightcoral;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
