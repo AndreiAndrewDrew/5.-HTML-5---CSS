@@ -12,7 +12,7 @@ body {
 .menu li {
   padding: 20px;
   background-color: lightgray;
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid rgb(19, 129, 197);
 }
 
 /* Стилизация первого элемента списка */
