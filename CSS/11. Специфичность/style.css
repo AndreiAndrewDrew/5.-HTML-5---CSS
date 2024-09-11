@@ -1,28 +1,47 @@
+/* 0 0 1 */
 body {
   margin: 30px;
 }
 
+/* 0 1 0 */
 .title {
   color: blue;
 }
 
+/* 0 0 1 */
 h2 {
   color: green;
 }
 
 /*********************************************/
-
+/* 0 1 0 */
 .description {
   color: darkblue;
   font-size: 1.4rem;
 }
 
+/* 0 1 0 */
 [class="description"] {
   color: darkred;
 }
 
 /*********************************************/
 
+/* 0 1 0 */
 .main {
   color: green !important;
+  /* !important face css regula prioritara 
+  fatsa de css regula inline*/
+}
+
+/*Cel mai specific merg selectorile dupa:
+0.inline css cel mai inlat nivel specific
+1. dupa id
+2. dupa clase atribute
+3. dupa pseudoelemente*/
+
+/* 1 0 0 -regula care cistiga*/
+#element-h2{
+  color: rgb(120, 31, 188);
+  text-decoration: underline;
 }
