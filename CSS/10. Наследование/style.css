@@ -13,13 +13,14 @@ p {
 }
 
 .forced-inherit em {
-  border: inherit;
+  border: inherit;/*Aici facem mostenirea pentru border, 
+  se mosteneste de la clasa 'forced-inherit' pntreu 'em'*/
   padding: 5px;
 }
 
 /*********************************************/
 
 .reset-inheritance em {
-  color: initial;
-  font-size: initial;
+  color: initial; /*culoare textului se face pe default*/
+  font-size: initial;/*la fel pe default*/
 }
