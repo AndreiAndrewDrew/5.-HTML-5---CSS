@@ -4,8 +4,8 @@ body {
 
 .box {
   margin: 30px 0;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-color: darkorange;
   /* transition-property: background-color;  */
   transition-property: all;
@@ -16,8 +16,8 @@ body {
 
 .box:hover {
   background-color: blueviolet;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 
 /*********************************************/
@@ -40,4 +40,25 @@ body {
   background-color: lightseagreen;
   color: white;
   font-size: 1.2rem;
+}
+
+.btn1{
+  margin: 20px 0;
+  width: 200px;
+  height: 50px;
+  font-size: 1.2rem;
+  color: blue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 1px grey;
+  border: 3px solid red;
+}
+
+.btn1:hover{
+  background-color: gray;
+  color: blanchedalmond;
+  border: 3px solid green;
+  box-shadow: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.8s ease-out;
 }
