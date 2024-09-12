@@ -18,8 +18,8 @@ p {
 .customPosition {
   background-color: burlywood;
   position: absolute;
-  top: 30px;
-  left: 50px;
+  top: 90px;
+  left: 110px;
   width: 200px;
 }
 
@@ -33,11 +33,13 @@ p {
 .imageCaption {
   position: absolute;
   top: 0;
-  left: 42px;
-  background-color: rgba(0, 0, 0, 0.8);
+  left: 70px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  border-radius: 10px;
   color: white;
   padding: 5px;
-  width: 200px;
+  width: 150px;
   font-size: 1.2rem;
   margin: 0;
 }
