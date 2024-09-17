@@ -11,26 +11,26 @@ body {
   /* height: 150px; */
 
   /* раскомментируйте по одному свойству для просмотра результатов */
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   /* justify-content: flex-start; */
   /* align-items: stretch; */
-  /* gap: 10px; */
+  gap: 10px;
 }
 
 /* выбор элемента с обоими классами: "container" и "column" */
 .container.column {
   flex-direction: column;
-  height: 350px; /*putem indica inaltsimea manual*/
+  height: 450px; /*putem indica inaltsimea manual*/
 }
 
 .box {
-  width: 200px;
-  height: 70px;
+  /* width: 200px; */
+  height: 80px;
   background-color: cornflowerblue;
   border: 2px solid darkblue;
   /* margin: 5px; */
   border-radius: 10px;
-  flex-basis: 200px; /*schimba witdh elementului pe Main-Axa*/
+  flex-basis: 100px; /*schimba witdh elementului pe Main-Axa */
   /* flex-grow: 1; '1' elementile ocupa tot spatsiu pe Main-Axa */
 }
 
@@ -51,8 +51,8 @@ body {
 } */
 
 /* раскомментируйте для использования свойства align-self */
-.box:nth-child(2) {
+/* .box:nth-child(2) {
   align-self: flex-end;
-  flex-shrink: 3; /*my add*/
+  flex-shrink: 3; 
   background-color: rgb(255, 165, 47);
-}
+} */
