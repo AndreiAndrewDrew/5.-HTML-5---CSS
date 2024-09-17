@@ -20,37 +20,39 @@ body {
 /* выбор элемента с обоими классами: "container" и "column" */
 .container.column {
   flex-direction: column;
-  /* height: 350px; */ /*putem indica inaltsimea manual*/
+  height: 350px; /*putem indica inaltsimea manual*/
 }
 
 .box {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 70px;
   background-color: cornflowerblue;
   border: 2px solid darkblue;
   /* margin: 5px; */
   border-radius: 10px;
-  flex-basis: 50px; /*schimba witdh elementului pa Main-Axa*/
+  flex-basis: 200px; /*schimba witdh elementului pe Main-Axa*/
+  /* flex-grow: 1; '1' elementile ocupa tot spatsiu pe Main-Axa */
 }
 
-.box:first-child{
-  background-color: lightgreen;/*Marcam primul element*/
+.box:first-child {
+  background-color: lightgreen; /*Marcam primul element*/
 }
 
 /* раскомментируйте для использования свойства flex-grow */
 /* .box:nth-child(2) {
-  flex-grow: 3;
-  background-color: greenyellow;
+  flex-grow: 3; 
+  background-color: lightcoral;
 } */
 
 /* раскомментируйте для использования свойства flex-shrink */
 /* .box:nth-child(2) {
   flex-shrink: 3;
-  background-color: greenyellow;
+  background-color: rgb(216, 124, 19);
 } */
 
 /* раскомментируйте для использования свойства align-self */
-/* .box:nth-child(2) {
+.box:nth-child(2) {
   align-self: flex-end;
-  background-color: greenyellow;
-} */
+  flex-shrink: 3; /*my add*/
+  background-color: rgb(255, 165, 47);
+}
