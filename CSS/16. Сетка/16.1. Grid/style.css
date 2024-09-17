@@ -6,7 +6,8 @@ body {
   margin-top: 25px;
   font-size: 1.1rem;
   display: grid;
-  text-align: center;
+  /* align-items: center; */
+  align-items: stretch; /*valoare podeafaultu*/
 
   /* grid-template-rows: 100px 100px 100px 100px;
   grid-template-columns: 150px 300px 150px; */
@@ -27,6 +28,7 @@ body {
   background-color: cornflowerblue;
   border: 2px solid darkblue;
   padding: 20px;
+  text-align: center;
 }
 
 /* .box:nth-child(2) {
