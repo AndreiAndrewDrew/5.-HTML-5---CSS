@@ -7,15 +7,18 @@ body {
   margin: 15px;
   display: flex;
   flex-direction: row; /*'flex-direction: row' este po defaultu, spoate sa nul incicam*/
-  /* раскомментируйте при использовании свойств align-items и align-self */
-  /* height: 150px; */
-
   /* раскомментируйте по одному свойству для просмотра результатов */
   flex-wrap: wrap;
-  /* justify-content: flex-start; */
-  /* align-items: stretch; */
+  justify-content: space-evenly; /*main axix*/
+  align-items: center;/*coss axis*/
   gap: 10px;
 }
+
+.container.row{
+  /* раскомментируйте при использовании свойств align-items и align-self */
+  height: 300px;
+}
+
 
 /* выбор элемента с обоими классами: "container" и "column" */
 .container.column {
@@ -24,7 +27,7 @@ body {
 }
 
 .box {
-  /* width: 200px; */
+  width: 100px;
   height: 80px;
   background-color: cornflowerblue;
   border: 2px solid darkblue;
