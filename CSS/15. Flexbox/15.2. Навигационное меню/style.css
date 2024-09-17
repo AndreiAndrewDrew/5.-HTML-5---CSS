@@ -12,27 +12,28 @@ ul {
 }
 
 .menu {
-  background-color: bisque;
+  background-color: rgb(124, 215, 165);
   padding: 10px 30px;
-  font-size: 1.5rem;
-  height: 120px;
+  font-size: 1.2rem;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .logo {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .menu-item {
   cursor: pointer;
-  padding: 15px 0px;
+  padding: 15px 5px;
   border-radius: 8px;
-  transition: background-color 0.3s ease-in;
+  transition: background-color 0.8s ease-in;
+  text-align: center;
 }
 
 .menu-item:hover {
-  background-color: rgb(255, 194, 119);
+  background-color: rgb(9, 179, 34);
 }
