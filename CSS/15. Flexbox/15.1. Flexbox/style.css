@@ -54,8 +54,8 @@ body {
 } */
 
 /* раскомментируйте для использования свойства align-self */
-/* .box:nth-child(2) {
-  align-self: flex-end;
+.box:nth-child(2) {
+  align-self: flex-start;
   flex-shrink: 3; 
   background-color: rgb(255, 165, 47);
-} */
+}
