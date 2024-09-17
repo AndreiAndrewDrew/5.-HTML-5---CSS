@@ -4,20 +4,21 @@ body {
 }
 
 dl {
-  width: 250px;
+  width: 300px;
   overflow: auto; /* отображение полос прокрутки, если содержимое переполняет элемент */
-  height: 250px;
+  /*lenta de scrolling*/
+  height: 200px;
   border: 2px solid burlywood;
 }
 
 dt {
-  position: sticky;
-  top: 0; /* попробуйте изменить это значение на 20px */
+  position: sticky;/*Pozitsie Lipicioasa */
+  top: 0px; /* попробуйте изменить это значение на 20px */
   background-color: bisque;
   margin-bottom: 3px;
   padding: 10px;
 }
 
 dd {
-  padding: 10px;
+  padding: 5px;
 }
