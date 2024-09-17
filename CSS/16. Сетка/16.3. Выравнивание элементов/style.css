@@ -4,7 +4,7 @@ body {
 
 .gridContainer {
   margin-top: 25px;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   border: 5px solid teal;
   padding: 5px;
 
@@ -13,8 +13,9 @@ body {
   grid-template-columns: repeat(3, 1fr);
 
   /* раскомментируйте чтобы увидеть выравнивание в действии */
-  /* justify-items: center; */
-  /* align-items: center; */
+  justify-items: center;
+  /* align-items: start; *//*Valoare implicita */
+  align-items: center;
 }
 
 .box {
@@ -22,6 +23,7 @@ body {
   background-color: cornflowerblue;
   border: 2px solid darkblue;
   padding: 30px;
+  text-align: center;
 
   /*
   ширина и высота указываются для того, чтобы элементы сетки были меньше
@@ -37,9 +39,13 @@ body {
 отдельных элементов сетки и их возможные значения
 */
 
-/* .box:nth-child(2),
-.box:nth-child(4) {
-  justify-self: center;
-  align-self: center;
+.box:nth-child(2){
+  justify-self: start;
+  align-self: start;
   background-color: yellowgreen;
-} */
+}
+.box:nth-child(4) {
+  justify-self: end;
+  align-self: end;
+  background-color: rgb(176, 96, 6);
+}
