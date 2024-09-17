@@ -3,10 +3,10 @@ body {
 }
 
 .header {
-  background-color: lightcoral;
+  background-color: rgb(129, 209, 172);
   text-align: center;
   position: fixed;
-  top: 0;
+  top: 0px;
   width: 100%;
 }
 
@@ -14,6 +14,6 @@ body {
   margin-top: 80px; /* добавление внешнего отступа после фиксированного заголовка */
   padding: 10px 50px;
   text-align: justify;
-  font-size: 1.5rem;
-  line-height: 1.3;
+  font-size: 1.3rem;
+  line-height: 1.2;
 }
