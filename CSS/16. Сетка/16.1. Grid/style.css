@@ -12,14 +12,14 @@ body {
   grid-template-columns: 150px 300px 150px; */
   
   /* grid-template-rows: repeat(4, 80px);  */
-  grid-template-columns: 1fr 2fr 2fr; 
+  grid-template-columns: 2fr 2fr 1fr 1fr; 
 
   /*
   Определяет размер автоматически генерируемых рядов.
   Ряды или столбцы генерируются автоматически, если
   элементов сетки больше, чем ячеек в сетке
   */
-  grid-auto-rows: 80px;
+  grid-auto-rows: 150px;
 }
 
 .box {
@@ -40,7 +40,8 @@ body {
 } */
 
 /*Analog*/
-.box:nth-child(2) {
+.box:nth-child(5) {
   grid-row: 1 / span 2;
-  grid-column: 2 / span 2;
+  grid-column: 1 / span 2;
+  background-color: rgb(17, 142, 100);
 }
