@@ -1,0 +1,37 @@
+.according {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 450px;
+}
+
+.according-item {
+  margin-bottom: 10px;
+}
+
+.according-title {
+  width: 30%;
+  color: #fff;
+  background: red;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 1s;
+}
+
+.according-title:hover {
+  background: #9a1616;
+}
+
+.according-content {
+  width: 450px;
+  background: #e6d6a4;
+  padding: 10px;
+  display: none;
+}
+
+.according-item.active .according-title{
+  width: 450px;
+  transition: all 0.1s ease-out;
+}
+
+.according-item.active .according-content {
+  display: block;
+}
