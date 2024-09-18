@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgray;
+}
+
+.tab {
+    width: 500px;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+
+.tab button {
+    background: rgb(61, 177, 132);
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.tab button:hover {
+    background: rgb(188, 3, 3);
+}
+
+.tab button.active {
+    background: rgb(1, 94, 1);
+}
+
+.tabcontent {
+    background: white;
+    width: 350px;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 21px;
+    display: none;
+}
