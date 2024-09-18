@@ -1,0 +1,10 @@
+#scroll-to-top {
+    color: white;
+    background: rgb(102, 202, 81);
+    padding: 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+}
