@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filtered Table</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <input
+      type="text"
+      id="myInput"
+      onkeyup="myFunction()"
+      placeholder="search for names.."
+    />
+
+    <table id="mytable">
+      <tr class="header">
+        <th style="width: 60%">Name</th>
+        <th style="width: 40%">Country</th>
+      </tr>
+      <tr>
+        <td>Adwan</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td>Rabi</td>
+        <td>INDIA</td>
+      </tr>
+      <tr>
+        <td>Amzad</td>
+        <td>PAKISTAN</td>
+      </tr>
+      <tr>
+        <td>Boris</td>
+        <td>UK</td>
+      </tr>
+    </table>
+    <script src="./app.js"></script>
+  </body>
+</html>
