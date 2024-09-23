@@ -38,10 +38,8 @@ function newElement() {
     alert("You must write something");
   } else {
     document.getElementById("myUL").appendChild(li);
-    
   }
   
-
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
   span.className = "close";
